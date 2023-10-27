@@ -80,5 +80,8 @@
                 "type:drupal-custom-theme"
             ]
         }
+    },
+    "scripts": {
+        "reset": "rm -r -f ./vendor/composer/tuf"
     }
 }

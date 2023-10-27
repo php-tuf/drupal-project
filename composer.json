@@ -20,9 +20,7 @@
         "drupal": {
             "type": "composer",
             "url": "https://drupal:drupal@packages.staging.devdrupal.org/8",
-            "tuf": {
-                "max-bytes": 1000000000
-            }
+            "tuf": true
         }
     },
     "require": {

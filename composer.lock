@@ -2803,12 +2803,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:php-tuf/composer-integration.git",
-                "reference": "a49a25ba9aa8da6818e36f5594923eca5ce0ce06"
+                "reference": "9eab6300ae55bb0e940783db500a84694f5d7ac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-tuf/composer-integration/zipball/a49a25ba9aa8da6818e36f5594923eca5ce0ce06",
-                "reference": "a49a25ba9aa8da6818e36f5594923eca5ce0ce06",
+                "url": "https://api.github.com/repos/php-tuf/composer-integration/zipball/9eab6300ae55bb0e940783db500a84694f5d7ac7",
+                "reference": "9eab6300ae55bb0e940783db500a84694f5d7ac7",
                 "shasum": ""
             },
             "require": {
@@ -2819,7 +2819,8 @@
             "require-dev": {
                 "composer/composer": "^2.1",
                 "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.5"
+                "phpunit/phpunit": "^9.5",
+                "symfony/process": "^6"
             },
             "default-branch": true,
             "type": "composer-plugin",
@@ -2857,7 +2858,7 @@
                 }
             ],
             "description": "Proof of concept of securing Composer downloads with PHP-TUF.",
-            "time": "2023-10-27T13:19:07+00:00"
+            "time": "2023-10-31T17:36:26+00:00"
         },
         {
             "name": "php-tuf/php-tuf",

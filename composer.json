@@ -20,7 +20,6 @@
         "drupal": {
             "type": "composer",
             "url": "https://drupal:drupal@packages.staging.devdrupal.org/8",
-            "only": ["drupal/*"],
             "tuf": true
         }
     },

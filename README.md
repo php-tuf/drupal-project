@@ -19,6 +19,7 @@ That's it.
 * This is using the `packages.drupal.org` **staging server** as the source of secure TUF metadata. The staging server is in heavy development and might need to be refreshed from time to time. Expect bugs!
 * `drupal/core`, and other packages prefixed with `drupal/core-`, are NOT protected by TUF. That's because they are exposed by `packagist.org`, which doesn't support TUF.
 * TUF is meant to work silently, in the background. Under normal usage, you shouldn't really know it's there. If you pass the `-vvv` flag to Composer commands, though, you will see TUF outputting debugging information. TUF's debugging output is prefixed with `[TUF]`.
+* At the moment, PHP-TUF **significantly slows down Composer's performance** and increases its memory usage. It's like a flashback to the days of Composer 1.x. I recommend you give PHP a _minimum_ of 1 GB of RAM, and be prepared to make a cup of coffee while Composer does its work.
 
 ### Supported Modules & Themes
 

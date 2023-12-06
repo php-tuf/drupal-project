@@ -23,7 +23,7 @@ That's it.
 
 ### Supported Modules & Themes
 
-The staging server only applies TUF protection to the 150 most popular Drupal modules themes. You'll get nasty-looking errors if you try to install or update anything that's not on this list:
+The staging server only applies TUF protection to the 150 most popular Drupal modules and themes. You'll get nasty-looking errors if you try to install or update anything that's not on this list:
 
 * address
 * addtoany

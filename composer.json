@@ -17,6 +17,10 @@
             "type": "vcs",
             "url": "git@github.com:php-tuf/php-tuf.git"
         },
+        "test-module": {
+            "type": "path",
+            "url": "tuf_test"
+        },
         "drupal": {
             "type": "composer",
             "url": "https://drupal:drupal@packages.staging.devdrupal.org/8",
@@ -27,6 +31,7 @@
         "composer/installers": "^2.0",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-recommended": "^10.1",
+        "drupal/tuf_test": "*",
         "drush/drush": "^12.4",
         "php-tuf/composer-integration": "dev-main"
     },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e65e6d65e37520567fc0c06f5929a17",
+    "content-hash": "477d05bbc76f49401d60d4f2a608763b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1145,12 +1145,12 @@
             "version": "dev-3.0.x",
             "source": {
                 "type": "git",
-                "url": "https://git.code-staging.devdrupal.org/project/automatic_updates.git",
-                "reference": "e4fe8675bbaf835d71ee9bdaaee3d6c00d6d5a9c"
+                "url": "https://git.drupalcode.org/project/automatic_updates.git",
+                "reference": "dc7e54d424c4bad98fb0b0e722c74c2e2480ade8"
             },
             "require": {
                 "composer-runtime-api": "^2.1",
-                "drupal/core": "^10",
+                "drupal/core": "^10.1",
                 "ext-json": "*",
                 "php-tuf/composer-stager": "^2.0.0-beta3",
                 "symfony/console": "^6.2"
@@ -1168,8 +1168,8 @@
                     "dev-3.0.x": "3.0.x-dev"
                 },
                 "drupal": {
-                    "version": "3.0.0-beta2+4-dev",
-                    "datestamp": "1702667618",
+                    "version": "3.0.0+11-dev",
+                    "datestamp": "1706629610",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1181,7 +1181,7 @@
                     "Drupal\\automatic_updates\\Development\\": "scripts/src"
                 }
             },
-            "notification-url": "https://drupal:drupal@packages.staging.devdrupal.org/8/downloads",
+            "notification-url": "https://packages.drupal.org/8/downloads",
             "scripts": {
                 "phpcbf": [
                     "scripts/phpcbf.sh"
@@ -1194,10 +1194,10 @@
                     "scripts/phpunit.sh"
                 ],
                 "core-convert": [
-                    "Drupal\\automatic_updates\\Development\\Converter::doConvert"
+                    "Drupal\\automatic_updates\\Development\\ConverterCommand"
                 ],
                 "core-commit": [
-                    "Drupal\\automatic_updates\\Development\\Converter::makeCommit"
+                    "Drupal\\automatic_updates\\Development\\ConverterCommand::makeCommit"
                 ]
             },
             "license": [

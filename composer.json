@@ -93,6 +93,14 @@
         }
     },
     "scripts": {
-        "reset": "rm -r -f ./vendor/composer/tuf"
+        "post-install-cmd": [
+            "./vendor/bin/drush site:install --yes --db-url=sqlite://localhost/db.sqlite --site-pass=admin",
+            "./vendor/bin/drush pm:enable tuf_test --yes"
+        ],
+        "reset": [
+            "chmod -R +w ./web/sites/default",
+            "rm ./web/sites/default/settings.php",
+            "rm -r -f ./vendor/composer/tuf"
+        ]
     }
 }

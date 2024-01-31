@@ -17,12 +17,17 @@
             "type": "vcs",
             "url": "git@github.com:php-tuf/php-tuf.git"
         },
-        "drupal": {
+        "drupal-real": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8",
+            "only": ["drupal/automatic_updates"]
+        },
+        "drupal-secured": {
             "type": "composer",
             "url": "https://drupal:drupal@packages.staging.devdrupal.org/8",
             "tuf": true
         },
-        "test-module": {
+        "tuf_test": {
             "type": "path",
             "url": "tuf_test"
         }

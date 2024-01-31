@@ -1,0 +1,5 @@
+type: module
+core_version_requirement: ^10
+name: 'TUF Test'
+dependencies:
+  - automatic_updates:package_manager

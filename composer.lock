@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "477d05bbc76f49401d60d4f2a608763b",
+    "content-hash": "b957ece4f81cb3e354833f79e67c7bb4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1547,6 +1547,19 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core."
+        },
+        {
+            "name": "drupal/tuf_test",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "tuf_test",
+                "reference": "7266634f1a6557c9468cd3d89ebb459b349a9ceb"
+            },
+            "type": "drupal-custom-module",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "drush/drush",

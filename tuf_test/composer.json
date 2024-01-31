@@ -1,0 +1,5 @@
+{
+    "name": "drupal/tuf_test",
+    "version": "1.0.0",
+    "type": "drupal-custom-module"
+}

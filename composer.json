@@ -21,6 +21,10 @@
             "type": "composer",
             "url": "https://drupal:drupal@packages.staging.devdrupal.org/8",
             "tuf": true
+        },
+        "test-module": {
+            "type": "path",
+            "url": "tuf_test"
         }
     },
     "require": {
@@ -28,6 +32,7 @@
         "drupal/automatic_updates": "3.0.x-dev",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-recommended": "^10.1",
+        "drupal/tuf_test": "^1.0",
         "drush/drush": "^12.4",
         "php-tuf/composer-integration": "dev-main"
     },

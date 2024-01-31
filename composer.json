@@ -94,8 +94,9 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "./vendor/bin/drush site:install --yes --db-url=sqlite://localhost/db.sqlite --site-pass=admin",
-            "./vendor/bin/drush pm:enable tuf_test --yes"
+            "drush site:install --yes --db-url=sqlite://localhost/db.sqlite --site-pass=admin",
+            "drush pm:enable tuf_test --yes",
+            "drush config:set package_manager.settings executables.composer $(which composer) --yes"
         ],
         "reset": [
             "chmod -R +w ./web/sites/default",

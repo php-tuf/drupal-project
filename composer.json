@@ -25,6 +25,7 @@
     },
     "require": {
         "composer/installers": "^2.0",
+        "drupal/automatic_updates": "3.0.x-dev",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-recommended": "^10.1",
         "drush/drush": "^12.4",

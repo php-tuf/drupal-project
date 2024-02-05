@@ -26,4 +26,4 @@ jobs:
 
       - name: Create Drupal Project
         run: |
-          composer create-project php-tuf/drupal-project drupal-project-local --repository '{"type": "path", "url": "../drupal-project-checkout", "options": {"symlink": false}}' --stability=dev
+          composer create-project php-tuf/drupal-project drupal-project-local --repository '{"type": "path", "url": "drupal-project-checkout", "options": {"symlink": false}}' --stability=dev

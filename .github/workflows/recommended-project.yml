@@ -1,0 +1,29 @@
+name: Build project
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 3 */2 * *'
+
+jobs:
+  composer-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout self
+        uses: actions/checkout@v2
+        with:
+          path: drupal-project-checkout
+
+      - name: Install PHP and Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          tools: composer:v2
+
+      - name: Create Drupal Project
+        run: |
+          composer create-project php-tuf/drupal-project drupal-project-local --repository '{"type": "path", "url": "../drupal-project-checkout", "options": {"symlink": false}}' --stability=dev

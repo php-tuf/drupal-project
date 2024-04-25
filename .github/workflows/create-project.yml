@@ -24,6 +24,6 @@ jobs:
           php-version: '8.1'
           tools: composer:v2
 
-      - name: Create Drupal Project
+      - name: Create Drupal Project2
         run: |
           composer create-project php-tuf/drupal-project drupal-project-local --repository '{"type": "path", "url": "drupal-project-checkout", "options": {"symlink": false}}' --stability=dev

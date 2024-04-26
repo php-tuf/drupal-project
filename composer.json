@@ -1,6 +1,6 @@
 {
     "name": "php-tuf/drupal-project",
-    "description": "Intended for testing drupal.org TUF staging setup. Project template for Drupal projects with a relocated document root.",
+    "description": "⚠️Warning: Intended for testing drupal.org TUF staging setup only. Project template for Drupal projects with a relocated document root.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",

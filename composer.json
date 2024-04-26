@@ -19,7 +19,8 @@
         },
         "drupal-core-tuf": {
             "type": "composer",
-            "url": "https://signed-packagist.staging.devdrupal.org"
+            "url": "https://signed-packagist.staging.devdrupal.org",
+            "tuf": true
         },
         "drupal-real": {
             "type": "composer",

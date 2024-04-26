@@ -27,3 +27,8 @@ jobs:
       - name: Create Drupal Project
         run: |
           composer create-project -vvv php-tuf/drupal-project drupal-project-local --repository '{"type": "path", "url": "drupal-project-checkout", "options": {"symlink": false}}' --stability=dev
+
+      - name: Install Drupal Project
+        run: |
+          cd drupal-project-local
+          composer --vvv require drupal/address

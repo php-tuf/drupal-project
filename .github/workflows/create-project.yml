@@ -31,4 +31,4 @@ jobs:
       - name: Install Drupal Project
         run: |
           cd drupal-project-local
-          composer --vvv require drupal/address
+          composer -vvv require drupal/address

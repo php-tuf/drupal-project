@@ -1,51 +1,51 @@
 {
  "signatures": [
   {
-   "keyid": "3196f89393aafffeac79d44e2f21447416e2335f9e38c468cf4f81c6f7ffc355",
-   "sig": "42a5733370c278aaf7a12e89c985f9b1a4590db24484ff3592b98061750d19293279ef99a3b53be9777150fd6098d84c2008e47f76916d395cc88b4e920ebb05"
+   "keyid": "fdd81718af57104cc80cd579cd6add569e3973ff34d85047ef290db991732088",
+   "sig": "cf57fdedd7a5fd83780dddb336625b6c198c4007fd025651e72cc8ee00765c0836e6115204974b2a1c3c47ce8eeea11420034c4dc8a7ee301c06930f7a84fa05"
   },
   {
-   "keyid": "eee6e9e4eff436c125487606e066d59550fcd8c2d26da47319fa91364f25f85e",
-   "sig": "1b65af737f6757b56dde7c3fdff48a28507e6d3b5761ae8f91cecd38f66fdf720ea295900305a9383ba19982a6b044badf436ec2ec466daab260e334b29dbb05"
+   "keyid": "ebd3be7cd7e8a51f46f093916f14a73dd7e9ac3181f8ccd3da6d0d383abfd0db",
+   "sig": "a6dcea5de0354d338ee432b46559a73dd7dd572778c0ff1d6ae8e6b74a3cda3168d2be6dca7292c0c4c127890deb4f6451d1cac184b18b30a60a060aeb3cf907"
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": false,
-  "expires": "2024-10-25T18:31:26Z",
+  "expires": "2025-05-22T22:17:05Z",
   "keys": {
-   "3196f89393aafffeac79d44e2f21447416e2335f9e38c468cf4f81c6f7ffc355": {
+   "3bc82a1b1d173e9609e5e9438b5c4ac2942ac96565319930af3f17ec73f9e72f": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "8a86c8eee0ec32cfcb14ab4cb9107ebd55524b903f3dc52b107c0b839bb91558"
+     "public": "fc2309e633428ad742c231157ec52e830c49ab20352bf3eed49057489584a5ee"
     },
     "scheme": "ed25519"
    },
-   "7aae212da2fc46912ca2f95b718dff876c92eccdb754ad0e9aa8245bc32e9ee4": {
+   "76c97a955c230fb49607bbd78b601b6f954730430d843e5a9f548b8a661c0a1d": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "801b36c6b5a9764c780bca1a8ce7ed055a5892e375bde7cd7f30f9967d9c9194"
+     "public": "4584fe567bb0291429802243ebc8bab82a3abc58c839f2b5d88b7f51b77c08ac"
     },
     "scheme": "ed25519"
    },
-   "7b1e6293f26568e535bed9350195cee84405961c0be7684d73443b03b6842cda": {
+   "964c5653e7a4b81f0310447d5510dea108324ae90f8a62e632b7a0c71a210cba": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "48fb7eebccfc6e3965684f2da22effcaf3b8a75c7b4b37555596f18bebccc579"
+     "public": "44493cb79ea0ce6ee83c60c436c3bc448768188b5aa4780ea66b157d6429c108"
     },
     "scheme": "ed25519"
    },
-   "8e718fc79832a047e9e6efa7990e3f568eb6d334fe2536cb6975b76dedac963d": {
+   "ebd3be7cd7e8a51f46f093916f14a73dd7e9ac3181f8ccd3da6d0d383abfd0db": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "8c1ca68102aa45ba23e88ade9147458e877e9c2f3393781cb8c717fe206ab575"
+     "public": "a18e10ca354af6bf2f83cccb671979baa3443bef1a3b5848e21e71e3f159b990"
     },
     "scheme": "ed25519"
    },
-   "eee6e9e4eff436c125487606e066d59550fcd8c2d26da47319fa91364f25f85e": {
+   "fdd81718af57104cc80cd579cd6add569e3973ff34d85047ef290db991732088": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "e1387b6994730ced98cecfadb50c0dcf2fc99a4bb68219db29678bc7b3a87ca9"
+     "public": "95aa0a0ae0267d8989924baf9a3f59bb4328d5318024a8d64e8dc5482d47b571"
     },
     "scheme": "ed25519"
    }
@@ -53,26 +53,26 @@
   "roles": {
    "root": {
     "keyids": [
-     "3196f89393aafffeac79d44e2f21447416e2335f9e38c468cf4f81c6f7ffc355",
-     "eee6e9e4eff436c125487606e066d59550fcd8c2d26da47319fa91364f25f85e"
+     "fdd81718af57104cc80cd579cd6add569e3973ff34d85047ef290db991732088",
+     "ebd3be7cd7e8a51f46f093916f14a73dd7e9ac3181f8ccd3da6d0d383abfd0db"
     ],
     "threshold": 1
    },
    "snapshot": {
     "keyids": [
-     "7b1e6293f26568e535bed9350195cee84405961c0be7684d73443b03b6842cda"
+     "76c97a955c230fb49607bbd78b601b6f954730430d843e5a9f548b8a661c0a1d"
     ],
     "threshold": 1
    },
    "targets": {
     "keyids": [
-     "7aae212da2fc46912ca2f95b718dff876c92eccdb754ad0e9aa8245bc32e9ee4"
+     "3bc82a1b1d173e9609e5e9438b5c4ac2942ac96565319930af3f17ec73f9e72f"
     ],
     "threshold": 1
    },
    "timestamp": {
     "keyids": [
-     "8e718fc79832a047e9e6efa7990e3f568eb6d334fe2536cb6975b76dedac963d"
+     "964c5653e7a4b81f0310447d5510dea108324ae90f8a62e632b7a0c71a210cba"
     ],
     "threshold": 1
    }

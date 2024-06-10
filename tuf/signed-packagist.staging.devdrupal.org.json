@@ -1,51 +1,51 @@
 {
  "signatures": [
   {
-   "keyid": "7cc7394ba927fdc289aeb35950c71ab08533c7813f80da5a21319ae4df7d0e8f",
-   "sig": "7e52471443fd49e76d80dbfdac90ac0ad4cdc448e0844ae0b40edbbb0feaadc74b07001a091faf6cda299d3f696596d561d3583f253543892c7eea1b59bb8f08"
+   "keyid": "4c6c858b3e56ea54f19ed065fefbd4ae250c1026d05be4a219f034c600469899",
+   "sig": "3ee37feaf26aa21ad91f8b1c683532700e7ed7c2c2fe1f0f3c5e98d64b6fbf0a7a411bb56b4ebf40fe81db63561b5753a332ce74cf3ad033f5a247a99ae1880a"
   },
   {
-   "keyid": "c33d678abf83142e5503722d71976b9505cd8fc66898198a530400cfd3eb61bb",
-   "sig": "284f8ef140575c6e7dbddcac6043db2f37a97600ab91f37f358aa06451079124d12154768678f7d3a27dbc660df09ac689dbf984fde953409d6a21c377e87a0b"
+   "keyid": "10efa3f59b8e927dbc5a88adc24b11351217b68629e0495f92fd3d07bb6da5cc",
+   "sig": "9136da1fff59d4e6e9ae00eeecd8f207b7c64510832811a3cfffe86c87d5c6d5153f4b3f87a5ef8cd01c1175913a594b095add7f424d2bd953bb47faa0c91108"
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": false,
-  "expires": "2024-11-08T22:10:42Z",
+  "expires": "2025-05-22T22:19:44Z",
   "keys": {
-   "0db5eac5bd0cc9527ee47bb702d56ce2cd4615e68c75bd64acae44749c652e86": {
+   "10efa3f59b8e927dbc5a88adc24b11351217b68629e0495f92fd3d07bb6da5cc": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "a32a98af59a9e389f537c549e8f0ff904b663c9daeb3e623d64801ef6e55f0a6"
+     "public": "c5e7dee25f41d06a23f0ce8bf35328da94e6f8132d27014a7420e9003d5fb33a"
     },
     "scheme": "ed25519"
    },
-   "4c0408e3b64551b2f2153a5a679df12e91605e342a9ddbeadbd25b1a65b79b0f": {
+   "2e0547f4b0831d7759fed5b40f2455ed6c05d0c76b451368e9ef616c8a0a1217": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "7e722511be69352b8835a7dad76376ebeb5bbc39038f5252b026a0fab216fd31"
+     "public": "101351517111f91e921ebe00b67f83cf0b3817690cc6ccbdc204a794c6c665ca"
     },
     "scheme": "ed25519"
    },
-   "7cc7394ba927fdc289aeb35950c71ab08533c7813f80da5a21319ae4df7d0e8f": {
+   "4775945f61bb4283e4d06884f8a7d163028b72910724c3f3d3a99bff3ea43354": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "b41a3978e8015a168a3fda33cd51b61ee6a4a77b597e4095131b7dd1a734ba05"
+     "public": "cdd2ab9447b913b90e6914f8a3dfe2f7f7464058e84a1faff864da38ddba8b2e"
     },
     "scheme": "ed25519"
    },
-   "c33d678abf83142e5503722d71976b9505cd8fc66898198a530400cfd3eb61bb": {
+   "4c6c858b3e56ea54f19ed065fefbd4ae250c1026d05be4a219f034c600469899": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "957b15e3687c878b26795e2fb4b3d63a6d44a5cd121cd2db0e745061a1cee159"
+     "public": "49340da05dcc55843d1f4df7a11343ad1669325c949684cf68511183286b815c"
     },
     "scheme": "ed25519"
    },
-   "c7a22d7697f3878af199b3720daf7b75a5ca88e57cb87ca015833dda61786a52": {
+   "56d95596a9a2751084f59dd842cff8a6ffd28d8c44478d5560c7177bd1be564c": {
     "keytype": "ed25519",
     "keyval": {
-     "public": "434afec64bfd707d3fd6c90f391c8b6eb2d953302588ee0312c9d00801a7a0e6"
+     "public": "b51ed0c11bcaa5ab7a784bf2aee30ee0c50c8aff056b19e7cc30bfcba9c7c6e6"
     },
     "scheme": "ed25519"
    }
@@ -53,26 +53,26 @@
   "roles": {
    "root": {
     "keyids": [
-     "7cc7394ba927fdc289aeb35950c71ab08533c7813f80da5a21319ae4df7d0e8f",
-     "c33d678abf83142e5503722d71976b9505cd8fc66898198a530400cfd3eb61bb"
+     "4c6c858b3e56ea54f19ed065fefbd4ae250c1026d05be4a219f034c600469899",
+     "10efa3f59b8e927dbc5a88adc24b11351217b68629e0495f92fd3d07bb6da5cc"
     ],
     "threshold": 1
    },
    "snapshot": {
     "keyids": [
-     "4c0408e3b64551b2f2153a5a679df12e91605e342a9ddbeadbd25b1a65b79b0f"
+     "56d95596a9a2751084f59dd842cff8a6ffd28d8c44478d5560c7177bd1be564c"
     ],
     "threshold": 1
    },
    "targets": {
     "keyids": [
-     "0db5eac5bd0cc9527ee47bb702d56ce2cd4615e68c75bd64acae44749c652e86"
+     "4775945f61bb4283e4d06884f8a7d163028b72910724c3f3d3a99bff3ea43354"
     ],
     "threshold": 1
    },
    "timestamp": {
     "keyids": [
-     "c7a22d7697f3878af199b3720daf7b75a5ca88e57cb87ca015833dda61786a52"
+     "2e0547f4b0831d7759fed5b40f2455ed6c05d0c76b451368e9ef616c8a0a1217"
     ],
     "threshold": 1
    }

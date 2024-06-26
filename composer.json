@@ -17,11 +17,6 @@
             "type": "vcs",
             "url": "git@github.com:php-tuf/php-tuf.git"
         },
-        "drupal-core-tuf": {
-            "type": "composer",
-            "url": "https://signed-packagist.staging.devdrupal.org",
-            "tuf": true
-        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8",

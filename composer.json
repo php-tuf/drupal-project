@@ -22,14 +22,9 @@
             "url": "https://signed-packagist.staging.devdrupal.org",
             "tuf": true
         },
-        "drupal-real": {
+        "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8",
-            "only": ["drupal/automatic_updates"]
-        },
-        "drupal-secured": {
-            "type": "composer",
-            "url": "https://drupal:drupal@packages.staging.devdrupal.org/8",
             "tuf": true
         },
         "tuf_test": {

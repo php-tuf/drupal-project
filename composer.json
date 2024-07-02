@@ -9,14 +9,6 @@
         "chat": "https://www.drupal.org/node/314178"
     },
     "repositories": {
-        "php-tuf-plugin": {
-            "type": "vcs",
-            "url": "git@github.com:php-tuf/composer-integration.git"
-        },
-        "php-tuf": {
-            "type": "vcs",
-            "url": "git@github.com:php-tuf/php-tuf.git"
-        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8",
@@ -34,7 +26,7 @@
         "drupal/core-recommended": "10.2.1",
         "drupal/tuf_test": "^1.0",
         "drush/drush": "^12.4",
-        "php-tuf/composer-integration": "dev-main"
+        "php-tuf/composer-integration": "1.0.0-alpha7"
     },
     "conflict": {
         "drupal/drupal": "*"

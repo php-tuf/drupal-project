@@ -10,25 +10,30 @@ on:
 
 jobs:
   composer-project:
+    name: PHP ${{ matrix.php }}
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        php: [8.1, 8.2, 8.3]
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout self
         uses: actions/checkout@v2
         with:
-          path: drupal-project-checkout
+          path: template-project
 
       - name: Install PHP and Composer
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          php-version: ${{ matrix.php }}
           tools: composer:v2
 
-      - name: Create Drupal Project
+      - name: Create Drupal project
         run: |
-          composer create-project php-tuf/drupal-project drupal-project-local --repository '{"type": "path", "url": "drupal-project-checkout", "options": {"symlink": false}}' --stability=dev -vvv
+          composer create-project php-tuf/drupal-project --repository '{"type": "path", "url": "template-project", "options": {"symlink": false}}' --stability=dev -vvv
 
-      - name: Install Drupal Project
-        run: |
-          cd drupal-project-local
-          composer -vvv require drupal/address
+      - name: Install modules and themes
+        run: composer -vvv require drupal/address
+        working-directory: drupal-project

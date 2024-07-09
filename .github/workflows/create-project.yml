@@ -38,3 +38,9 @@ jobs:
       - name: Install modules and themes
         run: composer -vvv require drupal/address
         working-directory: drupal-project
+
+      - name: Archive cached TUF metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: cached-tuf-data
+          path: drupal-project/vendor/composer/tuf

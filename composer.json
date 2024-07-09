@@ -31,8 +31,7 @@
         "drupal/core-recommended": "10.2.1",
         "drupal/tuf_test": "^1",
         "drush/drush": "^12.4",
-        "php-tuf/composer-integration": "^1-alpha10",
-        "php-tuf/composser-integration": "^1-alpha10"
+        "php-tuf/composer-integration": "^1-alpha10"
     },
     "conflict": {
         "drupal/drupal": "*"

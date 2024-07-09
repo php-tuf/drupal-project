@@ -1,6 +1,6 @@
 {
     "name": "php-tuf/drupal-project",
-    "description": "⚠️Warning: Intended for testing drupal.org TUF staging setup only. Project template for Drupal projects with a relocated document root.",
+    "description": "⚠️ A project template for Drupal projects, intended for testing drupal.org TUF integration only. Do not use as the basis of a real project.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",
@@ -14,19 +14,24 @@
             "url": "https://packages.drupal.org/8",
             "tuf": true
         },
+        "drupal-core": {
+            "type": "composer",
+            "url": "https://packagist-signed.drupalcode.org",
+            "tuf": true
+        },
         "tuf_test": {
             "type": "path",
             "url": "tuf_test"
         }
     },
     "require": {
-        "composer/installers": "^2.0",
-        "drupal/automatic_updates": "3.0.x-dev",
+        "composer/installers": "^2",
+        "drupal/automatic_updates": "^3.1",
         "drupal/core-composer-scaffold": "10.2.1",
         "drupal/core-recommended": "10.2.1",
-        "drupal/tuf_test": "^1.0",
+        "drupal/tuf_test": "^1",
         "drush/drush": "^12.4",
-        "php-tuf/composer-integration": "^1.0.0-alpha8"
+        "php-tuf/composer-integration": "^1-alpha8"
     },
     "conflict": {
         "drupal/drupal": "*"

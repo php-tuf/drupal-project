@@ -9,14 +9,14 @@
         "chat": "https://www.drupal.org/node/314178"
     },
     "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8",
-            "tuf": true
-        },
-        "drupal-core": {
+        "core": {
             "type": "composer",
             "url": "https://packagist-signed.drupalcode.org",
+            "tuf": true
+        },
+        "contrib": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8",
             "tuf": true
         },
         "tuf_test": {

@@ -36,7 +36,7 @@ jobs:
           composer create-project php-tuf/drupal-project --repository '{"type": "path", "url": "template-project", "options": {"symlink": false}}' --stability=dev -vvv
 
       - name: Install modules and themes
-        run: composer -vvv require drupal/address drupal/pathauto drupal/project_browser
+        run: composer -vvv require drupal/address drupal/antibot drupal/automatic_updates drupal/coffee drupal/diff drupal/easy_breadcrumb drupal/eca drupal/focal_point drupal/geocoder drupal/geofield drupal/gin drupal/gin_toolbar drupal/honeypot drupal/leaflet_more_maps drupal/linkit drupal/media_entity_download drupal/media_file_delete drupal/metatag drupal/pathauto drupal/project_browser drupal/quick_node_clone drupal/redirect drupal/sam drupal/scheduler drupal/simple_sitemap drupal/smart_date drupal/type_tray drupal/uli_custom_workflow drupal/webform
         working-directory: drupal-project
 
       - name: Update Drupal core

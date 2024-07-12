@@ -11,13 +11,11 @@
     "repositories": {
         "core": {
             "type": "composer",
-            "url": "https://packagist-signed.drupalcode.org",
-            "tuf": true
+            "url": "https://packagist-signed.drupalcode.org"
         },
         "contrib": {
             "type": "composer",
-            "url": "https://packages.drupal.org/8",
-            "tuf": true
+            "url": "https://packages.drupal.org/8"
         },
         "tuf_test": {
             "type": "path",

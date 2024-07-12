@@ -36,7 +36,11 @@ jobs:
           composer create-project php-tuf/drupal-project --repository '{"type": "path", "url": "template-project", "options": {"symlink": false}}' --stability=dev -vvv
 
       - name: Install modules and themes
-        run: composer -vvv require drupal/address
+        run: composer -vvv require drupal/address drupal/pathauto drupal/project_browser
+        working-directory: drupal-project
+
+      - name: Update Drupal core
+        run: composer -vvv require drupal/core-recommended:^10 drupal/core-composer-scaffold:^10 --update-with-all-dependencies
         working-directory: drupal-project
 
       - name: Archive cached TUF metadata
